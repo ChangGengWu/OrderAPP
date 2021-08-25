@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.navbar-order {
+  letter-spacing: 0.1rem;
+  height: 6vh;
+  color: #fffffc;
+  background-color: #335c67;
+}
+.main {
+  width: 80%;
+}
+
+.user-label {
+  border: 2px #6b705c solid;
+  color: #6b705c;
+  background-color: #f8f9fa;
+  padding: 0.5rem 0.9rem;
+  font-size: 18px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1rem;
+}
+
+.user-label i {
+  margin-right: 5px;
+}
+
+.live-list {
+  margin: 0 auto;
+  width: 80%;
+  list-style: none;
+}
+
+.content-title {
+  font-size: 38px;
+  letter-spacing: 0.1rem;
+  margin: 0 auto;
+  width: 80%;
+  display: inline;
+  border-bottom: 2px #335c67 solid;
+}
+
+.btn-order {
+  width: 20vh;
+  border-radius: 10px;
+  background-color: #e29578;
+  border-color: #e29578;
+  color: #fff;
+}
+
+.card-order {
+  width: 25vh;
+  border-radius: 15px;
+  background-color: #e8e8e4;
+  cursor: pointer;
+}
+
+.card-order:hover {
+  transform: scale(1.03, 1.03);
+  transition: 0.3s;
+}
+
+.btn-order:hover {
+  background-color: #f9dcc4;
+  border-color: #ffac81;
+  color: #000;
+  font-weight: 500;
+}
+
+.history-area {
+  width: 80%;
+}
+
+.table-history {
+  border-collapse: collapse;
+  font-family: "Poppins", sans-serif;
+  border-radius: 1px;
+  background-color: white;
+}
+
+.table-history thead {
+  box-shadow: 0 5px 10px #e1e5ee;
+}
+.table-history th {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.table-history tr {
+  height: 5vh;
+  min-height: 5vh;
+  text-align: center;
+}
+
+.table-history tr:nth-child(even) {
+  background-color: #f4f6fb;
+}
+
+.table-history td {
+  padding: 1rem 2rem;
+}
+
+.filter-area {
+  display: flex;
+  height: 5vh;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.history-filter {
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 5vh;
+  width: 25vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.history-filter li {
+  border: 5px;
+  letter-spacing: 0.1rem;
+  padding-bottom: 2px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.history-filter .active {
+  border-bottom: 4px solid #335c67;
+}
+
+.history-filter li:hover {
+  border-bottom: 4px solid #335c67;
+}
+
+.modal-label {
+  color: #5d636c;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+.modal-input {
+  letter-spacing: 0.1rem;
+}
