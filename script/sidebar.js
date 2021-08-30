@@ -1,11 +1,14 @@
 $(document).ready(function () {
   $("#group").click(function () {
-    $("#main").load("groups.html");
+    $("#main-content").load("groups.html");
   });
   $("#home").click(function () {
-    $("#main").load("main.html");
+    $("#main-content").load("main.html");
   });
   $("#history").click(function () {
-    $("#main").load("history.html");
+    $("#main-content").load("history.html");
+  });
+  $("#avaiable").click(function () {
+    $("#main-content").load("main.html");
   });
 });
