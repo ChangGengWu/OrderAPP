@@ -1,0 +1,54 @@
+.group-area {
+  margin: 0 auto;
+}
+
+.btn-group {
+  width: 15vh;
+  border-radius: 2px;
+  background-color: #e29578;
+  border-color: #e29578;
+  color: #fff;
+  box-shadow: -3px 3px 15px #e29578;
+}
+
+.member-num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #2a9d8f;
+}
+
+.order-groups .group-title {
+  font-size: 29px;
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+  color: #495057;
+}
+
+.order-groups li:hover {
+  transform: scale(1.02, 1.02);
+  transition: 0.5s;
+}
+
+.group-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-group-check {
+  font-size: 38px;
+  color: #e29578;
+}
+
+.group-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.group-tags span {
+  margin-right: 0.5rem;
+  font-size: 14px;
+  font-weight: 400;
+}

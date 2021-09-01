@@ -1,0 +1,71 @@
+.history-area {
+}
+
+.table-history {
+  border-collapse: collapse;
+  font-family: "Poppins", sans-serif;
+  border-radius: 1px;
+  background-color: white;
+}
+
+.table-history thead {
+  box-shadow: 0 5px 10px #e1e5ee;
+}
+.table-history th {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.table-history tr {
+  height: 5vh;
+  min-height: 5vh;
+  text-align: center;
+}
+
+.table-history tr:nth-child(even) {
+  background-color: #f4f6fb;
+}
+
+.table-history td {
+  padding: 1rem 2rem;
+  font-size: 20px;
+}
+
+.filter-area {
+  display: flex;
+  height: 5vh;
+  margin: 0 auto;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.history-filter {
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 5vh;
+  width: 25vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.history-filter li {
+  border: 5px;
+  letter-spacing: 0.1rem;
+  padding-bottom: 2px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.history-filter .active {
+  border-bottom: 4px solid #335c67;
+}
+
+.history-filter li:hover {
+  border-bottom: 4px solid #335c67;
+}
