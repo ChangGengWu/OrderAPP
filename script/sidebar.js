@@ -4,9 +4,9 @@ $(document).ready(function () {
     $("#main-content").load("groups.html");
   });
 
-  $("#home").click(function () {
-    $("#main-content").load("main.html");
-  });
+  // $("#home").click(function () {
+  //   $("#main-content").load("main.html");
+  // });
 
   $("#history").click(function () {
     $("#main-content").load("history.html");

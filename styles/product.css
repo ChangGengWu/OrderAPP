@@ -1,0 +1,15 @@
+.p-img-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.p-img-list > li > button {
+  border: none;
+}
+.carousel {
+  width: 50vh;
+}
+
+.product-label {
+  font-size: 18px;
+}
